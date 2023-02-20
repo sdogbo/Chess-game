@@ -1,0 +1,12 @@
+TEAM:
+Sharon Dogbo sdogbo1
+Anirudh Nistala anistal1
+Will Sangpachatanaruk wsangpa1
+
+DESIGN:
+The most complex part of the project was implementing make_move. At first we tried to put everything (error checking, exposing check, and moving the piece, etc) in the function. We ended up creating helper functions to split up and simplify the problem: valid_move, wont_check, move_piece. 
+Because the project instructions said the mystery class has a function point_value that returns the number of points, we used that as a hint to write a point_value function for each piece that returns its respective number of points. Then in Board, we wrote get_score that iterates through the whole board, adding each remaining piece's score to the current player's total score, if they are the corresponding color. 
+
+COMPLETNESS:
+Fully complete.
+
